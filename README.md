@@ -4,6 +4,20 @@
 - GitHub のリポジトリにアクセスするための適切な権限とアクセストークンがあること。
 - Windows 環境での実行を想定しています。
 
+## ダウンロード for Windows
+
+- PowerShell で実行してください。
+
+```ps
+git clone https://github.com/mizunoshota2001/wintools-bat.git wintools
+```
+
+- .git 削除版
+
+```ps
+git clone https://github.com/mizunoshota2001/wintools-bat.git wintools ; cd wintools ; rm -r -fo .git
+```
+
 ## 環境変数の設定
 
 バッチファイル内で使用される環境変数は以下の通りです。これらの変数を適切に設定する必要があります。
